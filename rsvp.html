@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -40,7 +40,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="img/logo.png" alt="">
+                                    <img src="img/logo.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="title_text title_text2 ">
-                                <h3>Event Venue</h3>
+                                <h3>Save A Seat </h3>
                                                                     <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWlpMThvMDNqMnRwbXJlYWk5MW4wbWJiZTIgY3lyaWxvZ29oQG0&amp;tmsrc=cyrilogoh%40gmail.com" class="boxed-btn-white">Add to your Calendar</a>
 
                             </div>
@@ -95,7 +95,7 @@
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="single_date">
                             <i class="ti-alarm-clock"></i>
-                            <span>03-05 Feb 2022</span>
+                            <span>05 Feb 2022</span>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-12 col-lg-5">
@@ -115,35 +115,35 @@
                 <h2 class="text-heading" style="text-align: center; color: #ff5e13;">Rsvp Form</h2>
                 <hr>
                 <div class="col-lg-12">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <form class="form-contact contact_form" action="https://sendyourass.com.ng/bot/guests" method="post">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" required>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                    <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email" required>
                                 </div>
                             </div>
                             <div class="input-group-icon mt-10 col-6">
 								<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
 								<div class="form-select" id="default-select">
-											<select>
+											<select name="virtual"> 
 												<option value=" 1"> Virtual Or Physical</option>
-                                                <option value="1">Virtual</option>
-                                                <option value="1">Physical</option>
+                                                <option value="False">Virtual</option>
+                                                <option value="True">Physical</option>
 									</select>
 								</div>
 							</div> 
                             <div class="input-group-icon mt-10 col-6">
 								<div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
 								<div class="form-select" id="default-select">
-                                    <select>
+                                    <select name="veritas">
                                             <option value=" 1">From Veritas ?</option>
-                                            <option value="1">True</option>
-                                            <option value="1">False</option>
+                                            <option value="True">True</option>
+                                            <option value="False">False</option>
 									</select>
 								</div>
 							</div>
@@ -174,34 +174,7 @@
     <!-- resister_book_end -->
 
     <!-- brand_area_start -->
-    <div class="brand_area dec_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="brand_active owl-carousel">
-                        <div class="single_brand text-center">
-                            <img src="img/barnd/1.png" alt="">
-                        </div>
-                        <div class="single_brand text-center">
-                            <img src="img/barnd/2.png" alt="">
-                        </div>
-                        <div class="single_brand text-center">
-                            <img src="img/barnd/3.png" alt="">
-                        </div>
-                        <div class="single_brand text-center">
-                            <img src="img/barnd/4.png" alt="">
-                        </div>
-                        <div class="single_brand text-center">
-                            <img src="img/barnd/5.png" alt="">
-                        </div>
-                        <div class="single_brand text-center">
-                            <img src="img/barnd/6.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- brand_area_end -->
 
     <!-- faq_area_Start -->
